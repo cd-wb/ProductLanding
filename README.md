@@ -38,8 +38,7 @@ Users should be able to:
 
 ### Continued development
 
-I wanth to focus in the flexbox and grid in future project because it help me to simplify my website and also to create a responsive layouts.
-One of the great things about Flexbox is the way it handles the distribution of space within a container.
+I want to focus on the flexbox and grid in future projects because they help me to simplify my website and also to create responsive layouts. One of the great things about Flexbox is the way it handles the distribution of space within a container.
 
 ## Author
 
