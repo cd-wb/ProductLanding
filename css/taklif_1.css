@@ -248,6 +248,7 @@ header .container .link ul li a:where(:hover, :focus) {
   flex-wrap: wrap;
   text-align: center;
   justify-content: space-around;
+	align-items:center ;
 }
 .features .container .card {
   padding-bottom: 30px;
