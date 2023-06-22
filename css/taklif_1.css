@@ -17,7 +17,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  /* outline: transparent; */
+  outline: transparent;
 }
 
 html {
@@ -113,7 +113,7 @@ header .container .link {
   justify-content: flex-end;
   align-items: center;
   position: relative;
-	padding-left: 130px;
+  padding-left: 130px;
 }
 header .container .link .icon {
   width: 25px;
@@ -210,20 +210,25 @@ header .container .link ul li a:where(:hover, :focus) {
   font-weight: normal;
 }
 .email .container form input[type="email"] {
-  padding: 10px 25px 10px 5px;
-  border: 0px;
+  padding-left: 5px;
+  border: 1px solid #333;
+  border-right: 0;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
+  width: 244px;
+  height: 50px;
 }
 .email .container form input[type="submit"] {
   padding: 10px 20px;
-  border: 0;
+  border: 1px solid #333;
   background: #fdbb43b0;
   cursor: pointer;
   font-weight: bold;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 3px;
   margin-left: -3px;
+  height: 50px;
+  transition: 0.3s;
 }
 .email .container form input[type="submit"]:where(:hover, :focus) {
   background-color: orange;
@@ -249,7 +254,7 @@ header .container .link ul li a:where(:hover, :focus) {
   flex-wrap: wrap;
   text-align: center;
   justify-content: space-around;
-	align-items:center ;
+  align-items: center;
 }
 .features .container .card {
   padding-bottom: 30px;
@@ -311,10 +316,12 @@ header .container .link ul li a:where(:hover, :focus) {
 .pricing .container .col a {
   padding: 7px 30px;
   font-weight: bold;
-  color: var(--main-color);
+  color: var(--mediomWhit-color);
   background-color: orange;
   border-radius: 3px;
   text-transform: uppercase;
+  transition: 0.3s;
+  letter-spacing: 1px;
 }
 .pricing .container .col a:is(:hover, :focus) {
   background-color: darkorange;
